@@ -20,7 +20,7 @@ const Presentation = () => {
                         <h2>Comment sommes nous arrivés là ?</h2>
                     </header>
                     <section>
-                        <img src="../../public/profil.jpg" />
+                        <img src={process.env.PUBLIC_URL + '/profil.jpg'} alt="photo Alexis" className="photo"/>  
                         <header>
                             <p>
                                 Alexis Leray, 32 ans à l'heure actuelle, sauf si cette visite à lui après le 24 Octobre 2023 où là j'aurais 33 ans.
