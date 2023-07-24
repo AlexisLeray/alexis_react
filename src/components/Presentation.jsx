@@ -28,13 +28,19 @@ const Presentation = () => {
                         </header>
                         <main>
                             <p>
-                                Issu d'une formation initiale en boulangerie, j'ai dû arrêter mon métier de base, car passionné de théâtre, j'ai un peu tiré sur la corde et le corps à dit stop.
+                                Issu d'une formation initiale en boulangerie, j'ai dû arrêter mon métier de base, 
+                                car passionné de théâtre, j'ai un peu tiré sur la corde et le corps à dit stop.
                             </p>
                             <p>
-                                Première session de chômage et je commence déjà à m'intéresser au métiers de l'informatique, mais mal renseingé et timing un peu cours pour se remettre de la santé et trouver ma voie je la laisse en suspend pendant 4 ans.
+                                Première session de chômage et je commence déjà à m'intéresser au métiers de l'informatique, 
+                                mais mal renseingé et timing un peu cours pour se remettre de la santé et 
+                                trouver ma voie je la laisse en suspend pendant 4 ans.
                             </p>
                             <p>
-                                Tant d'années passée dans une métier qui ne me convenait pas, mais dans lequel j'ai pû apprendre l'importance et l'art subtil du travail en équipe il était temps pour moi de passer dans une autre entreprise pour voir de nouvelles choses et, vue que j'y suis resté que quelques mois, visiblement ça ne l'a pas fait.
+                                Tant d'années passée dans une métier qui ne me convenait pas, 
+                                mais dans lequel j'ai pû apprendre l'importance et l'art subtil du travail en équipe il était temps pour moi 
+                                de passer dans une autre entreprise pour voir de nouvelles choses et, vue que j'y suis resté que quelques mois, 
+                                visiblement ça ne l'a pas fait.
                             </p>
                             <p>
                                 Nouvelle session de chômage, nouvelles opportunités ! Retour aux sources et à ce qui m'intéressait principalement, l'informatique ! Beaucoup de choix possibles, alors pourquoi le développement web ?  

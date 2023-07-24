@@ -22,7 +22,7 @@ const Nav = () => {
                 </NavLink>
             </li>
             <li>
-                <NavLink to="/technicité">
+                <NavLink to="/technique">
                     Et d'un point de vue technique ?
                 </NavLink>
             </li>
