@@ -11,6 +11,7 @@ const Home= () => {
 
     const handleNameChange = (e) => {
         setName(e.target.value);
+        
     }
     const handleLanguageChange = (e) => {
         setUserLanguage(!userLanguage)
@@ -30,9 +31,11 @@ const Home= () => {
             navigate("/presentation")
         }
     }
+
     return(
         <>
             <header>
+                
                 <h1>Alexis Leray</h1>
                 <h2>Développeur Web</h2>
             </header> 
