@@ -392,11 +392,25 @@ template {
   position: relative
 }
 .carousel {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 2px solid red
+}
+/* .carousel__content {
+  display:flex; justify-content: center;align-items: center;
+} */
+.carousel > * {
+  border: 1px solid blue
+}
+/* .carousel {
   display: 'flex';
   justify-content: 'center';
-  background: 'linear-gradient(to bottom, #16235e 0%, #020223 100%)',
-}
-.carousel__img {
+  background: 'linear-gradient(to bottom, #16235e 0%, #020223 100%)';
+  border: 1px solid red
+} */
+/* .carousel__img {
   width: 50px;
   height: 50px
-}
+} */
