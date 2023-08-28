@@ -53,30 +53,25 @@ const Technical = () => {
         <Nav />
       </header>
       {/* <button type="submit" onClick={test}>test</button> */}
-      <div className="cubeContainer">
-        <h2>Technical</h2>
-        <div className="carousel">
-          <Carousel
-            // height={460}
-            width="25%"
-            yOrigin={42}
-            yRadius={48}
-            autoPlay={true}
-            stopOnHover={true}
-            swipeable={true}
-            showArrows={true}
-          >
-            {data.map((e, i) => {
-              return (
-                <div key={i} className="carousel__content">
-                  <img src={e.img} className="carousel__img" />
-                  <h3>{e.name}</h3>
-                </div>
-              );
-            })}
-          </Carousel>
-        </div>
-      </div>
+
+      <h2>Technical</h2>
+
+      <Carousel
+        autoPlay={true}
+        stopOnHover={true}
+        showArrows={true}
+        infiniteLoop
+        className="carousel2"
+      >
+        {data.map((e, i) => {
+          return (
+            <div key={i} className="carousel__content">
+              <img src={e.img} className="carousel__img" />
+              <h3>{e.name}</h3>
+            </div>
+          );
+        })}
+      </Carousel>
     </>
   );
 };
